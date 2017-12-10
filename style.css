@@ -1,0 +1,43 @@
+a:hover{
+	text-decoration: none;
+}
+body{
+	
+}
+
+
+
+
+.top_area p {
+    display: inline-block;
+}
+.top_inner {
+    display: flex;
+}
+.top_left {
+    flex: 1 1 0;
+}
+.top_right {
+    flex: 1 1 0;
+}
+.top_left select {
+    display: inline-block;
+}
+.top_left p {
+    display: inline-block;
+}
+.top_right div {
+    display: inline-block;
+}
+.social_icons {
+}
+.social_icons ul li {
+    display: inline-block;
+}
+
+#main_navbar{
+	display: flex;
+}
+#main_navbar ul{
+	flex: auto;
+}

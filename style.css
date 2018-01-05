@@ -250,7 +250,8 @@ h6{
 }
 
 .social_icons_top ul li i {
-	font-size: 16px;
+	font-size: 20px;
+    margin-left: 5px;
 }
 
 .main_menu_area {
@@ -513,10 +514,17 @@ h6{
   margin: 0;
   padding: 40px 0 0 40px;
 }
+.portfolio_tags a:first-child::after{
+    content: ",";
+    right: 0;
+    top: 0;
+    color: #959595;
+}
 .portfolio_tags a {
   color: #959595;
   font-size: 14px;
   font-family: 'roboto';
+    margin-right: 5px;
 }
 .portfolio_tags{
   margin: 10px 0 20px 40px;
@@ -1159,6 +1167,9 @@ div.owl-nav{
     font-size: 14px;
     margin: 0;
 }
+.about_widget > p {
+  margin-bottom: 40px;
+}
 .about_widget a {
     color: #e5493a;
     display: block;
@@ -1258,7 +1269,7 @@ div.owl-nav{
 }
 .news_widget .widget_content date {
     color: #464646;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .news_widget .widget_post .widget_thumb i {
@@ -1351,4 +1362,109 @@ div.owl-nav{
 }
 .footer_bottom_area ul li {
     display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+*
+*
+*
+*
+*
+*
+*
+HOVER EFFECTS
+*
+*Link Color
+*Icon Color
+*Button Color
+*
+*
+*
+*
+*/
+
+
+.footer_bottom_area ul li a:hover,
+.contact_widget  .widget_content a:hover,
+.news_widget .widget_content:hover a h5,
+.navbar_wrapper ul li a:hover,
+.searchbox-icon i:hover,
+a i:hover,
+a:hover,
+.btn_black:hover,
+.service_item:hover h3,
+.privacy_policy:hover{
+    color: #E5493A;
+}
+
+.single_accordion a.accordion-toggle:hover i,
+.links a i:hover{
+    color: #fff;
+}
+.single_accordion a.accordion-toggle:hover i,
+.skil_item:hover hr,
+.service_item:hover hr,
+.service_item:hover .service_icon
+{
+    background: #E5493A;
+}
+
+.news_widget .widget_content:hover date,
+.single_accordion i:hover,
+.links a i:hover,
+
+{
+    color: #fff;
+}
+
+
+
+.clients .owl-prev:hover,
+.clients .owl-next:hover{
+        background-color: rgba(229, 73, 58, .7);
+}
+
+/*
+*
+*
+*TRANSITIONS
+*
+*
+*
+*
+*
+*
+*
+*/
+
+.portfolio_nav ul li,
+.news_widget .widget_content date,
+.single_accordion i,
+.links a i,
+.clients .owl-prev,
+.clients .owl-next,
+.footer_bottom_area ul li a,
+.contact_widget  .widget_content a,
+.news_widget .widget_content a h5,
+.navbar_wrapper ul li a,
+.searchbox-icon i,
+a i,
+a,
+.btn_black,
+.service_item h3,
+.single_accordion a.accordion-toggle i,
+.skil_item hr,
+.service_item hr,
+.service_item .service_icon
+{
+    transition: all ease-in-out .2s;
 }

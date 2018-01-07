@@ -125,7 +125,10 @@ h6{
 .services_items {
 	background-color: #fafafa;
 }
-
+.service_item {
+  display: block;
+  margin-bottom: 70px;
+}
 .our_quality {
 	background-color: #fafafa;
 }
@@ -269,11 +272,6 @@ h6{
 
 .navbar-brand {
 	margin-right: 70px;
-}
-
-.navbar_wrapper {
-	display: flex;
-	justify-content: space-between;
 }
 
 .menu_right_side {
@@ -1467,4 +1465,16 @@ a,
 .service_item .service_icon
 {
     transition: all ease-in-out .2s;
+}
+
+
+
+
+
+
+
+
+.navbar-toggler {
+  cursor: pointer;
+  font-size: 30px;
 }

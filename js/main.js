@@ -1,4 +1,5 @@
-var filterizd = $('.filtr-container').filterizr({    //options object
+var filterizd = $('.filtr-container').filterizr({ 
+    
 });
 
 
@@ -145,7 +146,7 @@ $(document).ready(function () {
         navText: ['<i class="fa fa-angle-left">', '<i class="fa fa-angle-right">'],
         responsive: {
             0: {
-                items: 2
+                items: 1
             },
             480: {
                 items: 3

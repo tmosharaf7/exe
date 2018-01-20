@@ -1,3 +1,11 @@
+html,
+body{
+    height: 100%;
+}
+
+
+
+
 img {
     max-width: 100%;
     height: auto;
@@ -3455,4 +3463,65 @@ ul {}
 
 .footer_content_light ul li a i:hover {
     color: #e5493a;
+}
+
+
+
+
+
+
+
+
+
+.error_headings h1 {
+    color: #e5493a;
+    font-family: "roboto";
+    font-size: 280px;
+    font-weight: 900;
+}
+.error_headings h3 {
+    color: #555555;
+    font-family: "roboto";
+    font-size: 48px;
+    font-weight: 300;
+}
+.error_headings p {
+    color: #555555;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: 300;
+}
+p.error_red {
+    color: #e5493a;
+    font-size: 24px;
+}
+.error_form_area {
+    background-color: #fafafa;
+}
+.error_form p {
+    margin: 0;
+    position: relative;
+}
+.error_form input {
+    border: medium none;
+    border-radius: 30px;
+    color: #c2c2c2;
+    font-family: "roboto";
+    font-size: 14px;
+    padding: 10px 30px 10px 15px;
+    width: 100%;
+}
+.error_form p::after {
+    color: #7b7b7b;
+    content: "";
+    font-family: "fontawesome";
+    font-size: 18px;
+    line-height: 0;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+#map{
+    height: 70%;
 }

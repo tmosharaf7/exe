@@ -4118,3 +4118,44 @@ p.error_red {
 .card:hover a.carousel-control-prev{
     opacity: 1
 }
+
+/*Styles For Dark*/
+
+.top_area_dark{
+    background-color: #111111;
+}
+.main_menu_area{
+    background-color: #252525;
+}
+.comment_top_dark,
+.comment_bottom_dark,
+.blog_content_area_dark,
+.blog_details_area_dark{
+    background-color: #252525;
+}
+
+.comment_author_info_dark h6,
+.single_blog_heads_dark h3,
+.single_blog_tags_dark h5,
+.single_blog_share_dark h5,
+.blog_quoted_text_dark h2,
+.single_blog_info_dark ul li a,
+.single_blog_title_dark h3{
+    color: #fff;
+}
+.single_blog_share_dark ul li a{
+    color: #626262
+}
+.blog_widget_all_dark input,
+.blog_comment_inputs_dark input,
+.blog_comment_inputs_dark textarea{
+    background-color: #171717;
+}
+
+.blog_widget_content_dark,
+.widget_heading_dark h5{
+    background-color: #252525 !important;
+}
+.blog_widget_content_dark ul li a .widget_cat_number_p{
+    background-color: #202020
+}

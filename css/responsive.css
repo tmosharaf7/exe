@@ -603,6 +603,12 @@
 /*// Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) and (max-width: 991.99px) {
+
+#blogThumbCarouselNav .carousel-item img,
+#blogThumbCarouselDot .carousel-item img{
+    max-height: 120px;
+    width: 100%;
+}
     body{
         background: yellow
     }
@@ -811,7 +817,16 @@
 }
     
     
-    
+    .blog_quote .blog_top_quote blockquote{
+        font-size: 15px;
+        line-height: 1.2
+    }
+    .blog_quote .blog_top_quote blockquote::before{
+        margin-top: -8rem;
+    }
+    .blog_quote .blog_top_quote blockquote::after{
+        margin-bottom: -8rem;
+    }
     
     
     
@@ -835,6 +850,12 @@
     body{
         background: orange;
     }
+
+#blogThumbCarouselNav .carousel-item img,
+#blogThumbCarouselDot .carousel-item img{
+    max-height: 120px;
+    width: 100%;
+}
     .card-columns {
         -webkit-column-count: 4;
         column-count: 4
@@ -922,6 +943,16 @@
         flex: 0 0 24%
     }
     
+    .blog_quote .blog_top_quote blockquote{
+        font-size: 15px;
+        line-height: 1.2
+    }
+    .blog_quote .blog_top_quote blockquote::before{
+        margin-top: -8rem;
+    }
+    .blog_quote .blog_top_quote blockquote::after{
+        margin-bottom: -8rem;
+    }
     
     
     
@@ -949,5 +980,11 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
     }
+
+#blogThumbCarouselNav .carousel-item img,
+#blogThumbCarouselDot .carousel-item img{
+    max-height: 120px;
+    width: 100%;
+}
 
 }

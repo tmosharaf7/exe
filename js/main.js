@@ -1,4 +1,12 @@
-
+(function () {
+    $(".about_carousel").owlCarousel({
+        loop: true,
+        items: 1,
+        dots: false,
+        nav: true,
+        navText: ['<i class="fa fa-angle-left">', '<i class="fa fa-angle-right">'],
+    });
+}());
 
 (function () {
       // Countdown
@@ -182,6 +190,8 @@ $(document).ready(function () {
       })(jQuery);
 
       $(document).ready(function () {
+
+
           $(".slide_all").owlCarousel({
               items: 1,
               loop: true,

@@ -1,4 +1,6 @@
-    (function () {
+
+
+(function () {
       // Countdown
     	// To change date, simply edit: var endDate = January 26, 2016 20:39:00";
     	$(function() {
